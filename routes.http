@@ -1,5 +1,5 @@
 # @name get-prompts
-GET http://localhost:3333
+GET http://localhost:3333/prompts
 
 ###
 
@@ -18,7 +18,7 @@ Content-Type: audio/mpeg
 
 # @name create-transcription
 
-POST http://localhost:3333/videos/93519d9f-6bc4-418f-b4d3-762c605093f2/transcription
+POST http://localhost:3333/videos/cf263198-e866-4e64-ad94-f6d6f0f30817/transcription
 Content-Type: application/json
 
 {
